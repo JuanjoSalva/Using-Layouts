@@ -8,6 +8,8 @@ student.db a traves de Student.
 * Creamos el Modelo Student.cs.
 * El controlador con inyección de dependencia a StudentContext
 * Creamos un Layout
+
+<pre><code>
 <!DOCTYPE html>
 
 <html>
@@ -25,6 +27,7 @@ student.db a traves de Student.
     @RenderSection("footer", false)
 </body>
 </html>
+</code></pre>
 
 * Añandimo una Vista Razor Start
 <pre><code>
