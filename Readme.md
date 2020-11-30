@@ -10,8 +10,6 @@ student.db a traves de Student.
 * Creamos un Layout
 
 <pre><code>
-<!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
