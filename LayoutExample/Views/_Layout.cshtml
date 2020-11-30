@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link type="text/css" rel="stylesheet" href="~/css/style-layout-example.css" />
+</head>
+<body>
+    <h1>bienvenido a la Universidad Contoso</h1>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        @RenderSection("footer", false)
+    </div>
+</body>
+</html>
