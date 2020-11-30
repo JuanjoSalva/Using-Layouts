@@ -5,9 +5,9 @@
 Este ejemplo usa una pequeña base de datos con SQLLITE:
 student.db a traves de Student.
 
-* Creamos el Modelo Student.cs.
-* El controlador con inyección de dependencia a StudentContext
-* Creamos un Layout
+Creamos el Modelo Student.cs.
+El controlador con inyección de dependencia a StudentContext
+Creamos un Layout
 
 <pre><code>
 <html>
@@ -27,14 +27,14 @@ student.db a traves de Student.
 </html>
 </code></pre>
 
-* Añandimo una Vista Razor Start
+Añandimo una Vista Razor Start
 <pre><code>
 @{
     Layout = "_Layout";
 }
 </code></pre>
 
-*  En el controlador creamos la vista asociada a la action INdex y la modificamos:
+En el controlador creamos la vista asociada a la action INdex y la modificamos:
 
 <pre><code>
 @model IEnumerable<Student>
@@ -73,7 +73,7 @@ student.db a traves de Student.
 </div>
 </code></pre>
 
-* Y modificamos también al de Details:
+Y modificamos también al de Details:
 <pre><code>
 @model Student
 <h2>Details</h2>
